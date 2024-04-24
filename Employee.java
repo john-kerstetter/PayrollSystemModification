@@ -3,10 +3,6 @@
 // Assignment: Lab 4 - Payroll System Modification
 // File: Employee.java
 
-import java.util.Calendar;
-import java.util.Date;
-import java.util.GregorianCalendar;
-
 public abstract class Employee {
     private String firstName;
     private String lastName;
@@ -20,8 +16,7 @@ public abstract class Employee {
         this.lastName = lastName;
         this.socialSecurityNumber = socialSecurityNumber;
 
-        Calendar c = new GregorianCalendar(year, month, day);
-        this.birthDate = c.getTime();
+        this.birthDate = new Date(year, month, day);
     }
 
     // gets first name
