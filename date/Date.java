@@ -1,8 +1,9 @@
-package date;
 // Name: John Kerstetter
 // Class: CS 145
 // Assignment: Lab 4 - Payroll System Modification
 // File: DateEmployeeEmployee.java
+
+package date;
 
 public class Date {
     private int year;

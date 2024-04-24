@@ -1,8 +1,9 @@
-package employee;
 // Name: John Kerstetter
 // Class: CS 145
 // Assignment: Lab 4 - Payroll System Modification
 // File: Employee.java
+
+package employee;
 
 import date.Date;
 

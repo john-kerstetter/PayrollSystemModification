@@ -1,6 +1,7 @@
-package employee;
 // Fig. 10.6: HourlyEmployee.java
 // HourlyEmployee class extends Employee.
+
+package employee;
 
 public class HourlyEmployee extends Employee {
    private double wage; // wage per hour
