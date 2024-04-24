@@ -1,3 +1,4 @@
+package employee;
 // Fig. 10.5: SalariedEmployee.java
 // SalariedEmployee concrete class extends abstract class Employee.
 

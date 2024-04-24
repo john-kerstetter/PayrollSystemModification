@@ -1,7 +1,10 @@
+package employee;
 // Name: John Kerstetter
 // Class: CS 145
 // Assignment: Lab 4 - Payroll System Modification
 // File: Employee.java
+
+import date.Date;
 
 public abstract class Employee {
     private String firstName;

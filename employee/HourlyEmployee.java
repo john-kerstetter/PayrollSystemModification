@@ -1,3 +1,4 @@
+package employee;
 // Fig. 10.6: HourlyEmployee.java
 // HourlyEmployee class extends Employee.
 

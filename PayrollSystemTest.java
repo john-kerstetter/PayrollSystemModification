@@ -1,6 +1,11 @@
 // Exercise 10.13: PayrollSystemTest.java
 // Employee hierarchy test program.
 import java.util.Scanner; // program uses Scanner to obtain user input
+import employee.BasePlusCommissionEmployee;
+import employee.CommissionEmployee;
+import employee.Employee;
+import employee.HourlyEmployee;
+import employee.SalariedEmployee;
 
 public class PayrollSystemTest {
    public static void main(String[] args) {
