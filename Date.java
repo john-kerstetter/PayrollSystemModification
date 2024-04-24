@@ -1,3 +1,7 @@
+// Name: John Kerstetter
+// Class: CS 145
+// Assignment: Lab 4 - Payroll System Modification
+// File: DateEmployeeEmployee.java
 
 public class Date {
     private int year;
