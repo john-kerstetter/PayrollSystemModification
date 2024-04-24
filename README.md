@@ -1,1 +1,1 @@
-__ assignment for CIS145
+abstract class assignment for CIS145
