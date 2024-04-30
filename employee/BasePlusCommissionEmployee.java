@@ -40,7 +40,7 @@ public class BasePlusCommissionEmployee extends CommissionEmployee {
 
     // calculate base-salaried commission employee's earnings
     public double earnings() {
-        return this.getBaseSalary() + this.earnings();
+        return this.getBaseSalary() + (this.getCommissionRate() * this.getGrossSales());
     }
 
     // return String representation of BasePlusCommissionEmployee

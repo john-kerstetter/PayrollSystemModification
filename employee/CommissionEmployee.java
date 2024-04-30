@@ -25,9 +25,6 @@ public class CommissionEmployee extends Employee {
             throw new IllegalArgumentException("Commission rate must be > 0.0 and < 1.0");
         }
 
-        // this.firstName = firstName;
-        // this.lastName = lastName;
-        // this.socialSecurityNumber = socialSecurityNumber;
         this.grossSales = grossSales;
         this.commissionRate = commissionRate;
     }
@@ -57,19 +54,20 @@ public class CommissionEmployee extends Employee {
 
     // return commission rate
     public double getCommissionRate() {
-        return commissionRate;
+        return this.commissionRate;
     }
 
     // calculate earnings
     public double earnings() {
-        return getCommissionRate() * getGrossSales();
+        return this.getCommissionRate() * this.getGrossSales();
     }
 
     // return String representation of CommissionEmployee object
     @Override
     public String toString() {
         return String.format("%s: %s %s%n%s: %s%n%s: %.2f%n%s: %.2f", "commission employee",
-                getFirstName(), getLastName(), "social security number", getSocialSecurityNumber(),
-                "gross sales", getGrossSales(), "commission rate", getCommissionRate());
+                this.getFirstName(), this.getLastName(), "social security number",
+                this.getSocialSecurityNumber(), "gross sales", this.getGrossSales(),
+                "commission rate", this.getCommissionRate());
     }
 }
